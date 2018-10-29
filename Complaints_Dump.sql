@@ -1,0 +1,48 @@
+-- Complaints(complaint_id, user_id, description, employee_id, status, created_at, resolved_at)
+-- status: PENDING, BEING_HANDLED, ADDRESSED
+
+INSERT INTO Complaints VALUES(1, 'I ordered a hoodie and it had holes', 1, 'ADDRESSED', '2018-10-05 13:45:21.529', '2018-10-06 15:02:12.101');
+INSERT INTO Complaints VALUES(10, 'The galaxy s6 that i ordered stopped functioning after 2 days', 5, 'BEING_HANDLED', '2018-10-25 09:12:10.002', NULL);
+INSERT INTO Complaints VALUES(2, 'The shoe soles gave way after my first 100km run', NULL, 'PENDING', '2018-10-22 19:35:15.230', NULL);
+INSERT INTO Complaints VALUES(6, 'I think this guy is lying about his hooding', 6, 'BEING HANDLED', '2018-10-06 10:20:15.110', NULL);
+INSERT INTO Complaints VALUES(1, 'Royal Sporting House has been pretty slow with their deliveries', 3, 'BEING HANDLED', '2018-10-20 20:54:19.199', NULL);
+INSERT INTO Complaints VALUES(3, 'I''ve been trying to contact iStudio for some inquiry but they never get back to me at all', 5, 'ADDRESSED', '2018-10-18 15:31:20.765', '2018-10-22 19:21:40.119');
+INSERT INTO Complaints VALUES(9, 'Nubox seems to be selling their products at a way higher price than a normal Apple Store', NULL, 'PENDING', '2018-10-05 12:10:20.123', NULL);
+INSERT INTO Complaints VALUES(12, 'Packaging came damaged and unsatifactory', NULL, 'PENDING', '2018-10-05 12:10:20.123', NULL);
+INSERT INTO Complaints VALUES(14, 'Store sent the wrong item!!!', 1, 'ADDRESSED', '2018-10-05 12:10:20.123', '2018-10-06 16:02:12.101');
+INSERT INTO Complaints VALUES(15, 'False advertising: item was not as described', NULL, 'PENDING', '2018-10-05 12:10:20.123', NULL);
+INSERT INTO Complaints VALUES(12, 'defective goods, reported', NULL, 'PENDING', '2018-10-05 12:10:20.123', NULL);
+INSERT INTO Complaints VALUES(13, 'Item sent is a imitation product, help please', 1, 'ADDRESSED', '2018-10-05 12:10:20.123', '2018-10-05 16:02:12.101');
+INSERT INTO Complaints VALUES(3, 'I got charged a higher amount then the price reflected on the store', 13, 'BEING_HANDLED', '2018-10-05 12:10:20.123', NULL);
+INSERT INTO Complaints VALUES(5, 'The discount code did not work!!!', NULL, 'PENDING', '2018-10-05 12:10:20.123', NULL);
+INSERT INTO Complaints VALUES(17, 'store staff was rude and made scarcastic remarks when I queried about their product', 14, 'ADDRESSED', '2018-10-05 12:10:20.123', '2018-10-06 17:02:12.101');
+INSERT INTO Complaints VALUES(9, 'Website lagged and crashed  frequently', 13, 'BEING_HANDLED', '2018-10-05 12:10:20.123', NULL);
+INSERT INTO Complaints VALUES(18, 'This comment is Ai generated', 1, 'ADDRESSED', '2018-10-05 12:10:20.123', '2018-10-05 14:10:20.123');
+INSERT INTO Complaints VALUES(2,'unhelpfull comment', NULL, 'PENDING', '2018-10-05 12:10:20.123', NULL);
+INSERT INTO Complaints VALUES(16, 'I seen this comment so many times', NULL, 'PENDING', '2018-09-05 12:10:20.123', NULL);
+INSERT INTO Complaints VALUES(15, 'this is a false comment', 1, 'ADDRESSED', '2018-10-03 12:10:20.123', '2018-10-04 12:10:20.123');
+INSERT INTO Complaints VALUES(14, 'Hey stop advertising your items', 6, 'BEING_HANDLED', '2018-10-05 12:10:20.123', NULL);
+INSERT INTO Complaints VALUES(13, 'oh dear not like this', NULL, 'PENDING', '2018-10-05 12:10:20.123', NULL);
+INSERT INTO Complaints VALUES(16, 'Lazada is so much better', 5, 'BEING_HANDLED', '2018-10-05 12:10:20.123', NULL);
+INSERT INTO Complaints VALUES(17, 'woohoo', NULL, 'PENDING', '2018-10-05 12:10:20.123', NULL);
+INSERT INTO Complaints VALUES(18, 'Ai generated comment', NULL, 'PENDING', '2018-10-05 12:10:20.123', NULL);
+INSERT INTO Complaints VALUES(16, 'AI generated comment', NULL, 'PENDING', '2018-10-05 12:10:20.123', NULL);
+INSERT INTO Complaints VALUES(14, 'hi', NULL, 'PENDING', '2018-10-05 12:10:20.123', NULL);
+INSERT INTO Complaints VALUES(13, 'Packaging came damaged and unsatifactory', NULL, 'PENDING', '2018-10-05 12:10:20.123', NULL);
+INSERT INTO Complaints VALUES(2, 'Wrong item sent! '  , 12, 'BEING_HANDLED', '2018-10-05 12:10:20.123', NULL);
+INSERT INTO Complaints VALUES(6, 'Requesting swap', 1, 'ADDRESSED', '2018-08-05 12:10:20.123', '2018-08-05 19:10:20.123');
+INSERT INTO Complaints VALUES(10, 'Packaging came damaged and unsatifactory', 13, 'BEING_HANDLED', '2018-07-05 12:10:20.123', NULL);
+INSERT INTO Complaints VALUES(13, 'item not as descripted', NULL, 'PENDING', '2018-10-05 12:10:20.123', NULL);
+INSERT INTO Complaints VALUES(14, 'faulty Item', 15, 'ADDRESSED', '2018-08-05 12:10:20.123', '2018-09-05 12:10:20.123');
+INSERT INTO Complaints VALUES(17, 'excessive wrapping', 17, 'BEING_HANDLED', '2018-10-05 12:10:20.123', NULL);
+INSERT INTO Complaints VALUES(12, 'Product not send in eco friendly wrapping', 18, 'ADDRESSED', '2018-10-05 12:10:20.123', '2018-11-05 12:10:20.123');
+INSERT INTO Complaints VALUES(18, 'item came damaged', NULL, 'PENDING', '2018-04-05 12:10:20.123', NULL);
+INSERT INTO Complaints VALUES(11, 'Packaging came damaged and unsatifactory', NULL, 'PENDING', '2018-06-05 12:10:20.123', NULL);
+INSERT INTO Complaints VALUES(9, 'I got scammed!!', 13, 'BEING_HANDLED', '2018-10-05 12:10:20.123', NULL);
+INSERT INTO Complaints VALUES(6, 'very aggressive selling tatic', 18, 'ADDRESSED', '2018-08-05 12:10:20.123', '2018-10-05 12:10:20.123');
+INSERT INTO Complaints VALUES(3, 'Fake Apple Store', 12, 'ADDRESSED', '2018-10-05 12:10:20.123', '2018-10-05 13:10:20.123');
+INSERT INTO Complaints VALUES(7, 'they carry imitation goods', NULL, 'PENDING', '2018-10-05 12:10:20.123', NULL);
+INSERT INTO Complaints VALUES(4, 'Very messy interface', 1, 'ADDRESSED', '2018-09-05 12:10:20.123', '2018-09-05 13:10:20.123');
+INSERT INTO Complaints VALUES(15, 'unclear pricing', 6, 'ADDRESSED', '2018-10-05 12:10:20.123', '2018-10-06 12:10:20.123');
+INSERT INTO Complaints VALUES(13, 'they tried to scam me', 5, 'ADDRESSED', '2018-10-05 12:10:20.123', '2018-11-05 12:10:20.123');
+INSERT INTO Complaints VALUES(16, 'dont bother with this shop', NULL, 'PENDING', '2018-10-05 12:10:20.123', NULL);
